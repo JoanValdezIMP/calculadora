@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>DooM</title>
+
+    <style>
+      /* 1. Fondo negro puro y eliminación de márgenes */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        overflow: hidden; /* Evita que aparezcan barras de desplazamiento */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Ocupa el 100% del alto de la ventana */
+      }
+
+      /* 2. Hacemos que el juego crezca todo lo posible manteniendo su proporción original */
+      #screen {
+        max-width: 300%;
+        max-height: 300%;
+        object-fit: contain;
+        outline: none; /* Elimina el borde de selección al hacer clic */
+        cursor: crosshair; /* Un toque estético para el ratón */
+      }
+
+      /* 3. Ocultamos toda la interfaz sobrante sin romper el archivo JavaScript */
+      .hidden-ui {
+        display: none !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="screen" width="640" height="400" tabindex="0"></canvas>
+
+    <div class="hidden-ui">
+        <h1>DooM</h1>
+        <p id="focushint"></p>
+        <button id="enterButton"></button>
+        <button id="leftButton"></button>
+        <button id="upButton"></button>
+        <button id="downButton"></button>
+        <button id="rightButton"></button>
+        <button id="ctrlButton"></button>
+        <button id="spaceButton"></button>
+        <button id="altButton"></button>
+        <div id="output"></div>
+        <span id="getmsps_stats">0</span>
+        <span id="getms_stats">0</span>
+        <span id="fps_stats">0</span>
+        <span id="drawframes_stats">0</span>
+        <span id="animationfps_stats">0</span>
+    </div>
+
+    <script src="main.js" defer></script>
+  </body>
+
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PAC4-Calculadora</name>
+    </assembly>
+    <members>
+        <member name="T:PAC4_Calculadora.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:PAC4_Calculadora.MainWindow">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

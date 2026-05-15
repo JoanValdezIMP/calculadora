@@ -1,0 +1,50 @@
+﻿<Window x:Class="PAC4_Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        Title="DoomCalc" Height="500" Width="350" Background="#222222">
+
+    <Grid>
+
+        <Grid x:Name="CalculatorUI" Visibility="Visible">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Background="#9EA78D" Margin="10" CornerRadius="5" Padding="5" Grid.Row="0">
+                <TextBlock x:Name="CalcDisplay" Text="0" 
+                           FontSize="48" FontFamily="Consolas" 
+                           Foreground="#222222" HorizontalAlignment="Right" 
+                           VerticalAlignment="Bottom"/>
+            </Border>
+
+            <UniformGrid Grid.Row="1" Columns="4" Margin="10,0,10,10">
+                <Button Content="7" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="8" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="9" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="/" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+
+                <Button Content="4" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="5" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="6" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="*" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+
+                <Button Content="1" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="2" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="3" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="-" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+
+                <Button Content="C" Click="BtnClear_Click" Margin="2" FontSize="20" Background="#FFAAAAAA"/>
+                <Button Content="0" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
+                <Button Content="=" Click="BtnEquals_Click" Margin="2" FontSize="20" Background="#FF7DA1FF"/>
+                <Button Content="+" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+            </UniformGrid>
+        </Grid>
+
+        <Border x:Name="DoomContainer" Visibility="Collapsed" Background="Black">
+            <wv2:WebView2 x:Name="DoomScreen" />
+        </Border>
+
+    </Grid>
+</Window>
