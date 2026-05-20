@@ -1,0 +1,381 @@
+\hypertarget{class_p_a_c4___calculadora_1_1_main_window}{}\section{P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window Class Reference}
+\label{class_p_a_c4___calculadora_1_1_main_window}\index{P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window}}
+
+
+Classe principal que implementa la lògica de la calculadora per a la P\+A\+C4. Incorpora validació d\textquotesingle{}errors i jerarquia d\textquotesingle{}operacions, a més d\textquotesingle{}un Easter Egg ocult.  
+
+
+Inheritance diagram for P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.910569cm]{class_p_a_c4___calculadora_1_1_main_window}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a3332f70a514dc3489ebb21285d219f04}{Main\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la classe \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window}{Main\+Window}}. Inicialitza els components gràfics. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a3332f70a514dc3489ebb21285d219f04}{Main\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la classe \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window}{Main\+Window}}. Inicialitza els components gràfics. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a9a7e7d247e527920519e1451ff703233}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a9a7e7d247e527920519e1451ff703233}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_ab4d09576c518172d01427afd0e967127}{Btn\+Number\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Mètode que s\textquotesingle{}executa en fer clic a un botó numèric (0-\/9) o al punt decimal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a42ad8a5d111a5dc3e848a3a4be51bf36}{Btn\+Operator\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Mètode que s\textquotesingle{}executa en fer clic a un operador matemàtic (+, -\/, ×, ÷). Gestiona la validació per evitar operadors consecutius. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_aa608d9b7d35fe6f657adb4f7af99ba22}{Btn\+Equals\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Calcula el resultat de l\textquotesingle{}expressió acumulada respectant les prioritats operatives. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a81c0d28ed62031f812ddf46780d2cda1}{Btn\+Clear\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Neteja completament la calculadora o surt del motor de joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a0c53c4846653c6a7f127f4582d0cf449}{Mostrar\+Error}} ()
+\begin{DoxyCompactList}\small\item\em Mètode auxiliar per establir l\textquotesingle{}estat d\textquotesingle{}error a la interfície. \end{DoxyCompactList}\item 
+async void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a023883a85a8b64c14e91725146630d27}{Run\+Doom\+Full\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Mètode privat que activa l\textquotesingle{}entorn de pantalla completa per executar l\textquotesingle{}Easter Egg. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a1b0f5b87aa37a064fb973e1cd3910816}{Exit\+Doom}} ()
+\begin{DoxyCompactList}\small\item\em Tanca l\textquotesingle{}Easter Egg i restaura la finestra original de la calculadora. El Doom es pot tancar prement Ctrl+Q o fent clic al botó Clear mentre el Doom està actiu. ~\newline
+El Doom\+Screen es manté carregat per si l\textquotesingle{}usuari vol tornar a activar-\/lo, evitant errors de recàrrega. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a3209540a4b7763138f82d9311887f17e}{Main\+Window\+\_\+\+Preview\+Key\+Down}} (object sender, Key\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Gestor d\textquotesingle{}esdeveniments de teclat\+: permet controlar la calculadora i sortir del joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_accd06121801821a3d11500cc79293ff7}{Ejecutar\+Boton\+Por\+Contenido}} (string contenido)
+\item 
+System.\+Collections.\+Generic.\+I\+Enumerable$<$ T $>$ \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a6c67cf368bc6cddc47d21def635bb27b}{Find\+Visual\+Children$<$ T $>$}} (Dependency\+Object dep\+Obj)
+\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_ab4d09576c518172d01427afd0e967127}{Btn\+Number\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Mètode que s\textquotesingle{}executa en fer clic a un botó numèric (0-\/9) o al punt decimal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a42ad8a5d111a5dc3e848a3a4be51bf36}{Btn\+Operator\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Mètode que s\textquotesingle{}executa en fer clic a un operador matemàtic (+, -\/, ×, ÷). Gestiona la validació per evitar operadors consecutius. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_aa608d9b7d35fe6f657adb4f7af99ba22}{Btn\+Equals\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Calcula el resultat de l\textquotesingle{}expressió acumulada respectant les prioritats operatives. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a81c0d28ed62031f812ddf46780d2cda1}{Btn\+Clear\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Neteja completament la calculadora o surt del motor de joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a0c53c4846653c6a7f127f4582d0cf449}{Mostrar\+Error}} ()
+\begin{DoxyCompactList}\small\item\em Mètode auxiliar per establir l\textquotesingle{}estat d\textquotesingle{}error a la interfície. \end{DoxyCompactList}\item 
+async void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a023883a85a8b64c14e91725146630d27}{Run\+Doom\+Full\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Mètode privat que activa l\textquotesingle{}entorn de pantalla completa per executar l\textquotesingle{}Easter Egg. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a1b0f5b87aa37a064fb973e1cd3910816}{Exit\+Doom}} ()
+\begin{DoxyCompactList}\small\item\em Tanca l\textquotesingle{}Easter Egg i restaura la finestra original de la calculadora. El Doom es pot tancar prement Ctrl+Q o fent clic al botó Clear mentre el Doom està actiu. ~\newline
+El Doom\+Screen es manté carregat per si l\textquotesingle{}usuari vol tornar a activar-\/lo, evitant errors de recàrrega. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a3209540a4b7763138f82d9311887f17e}{Main\+Window\+\_\+\+Preview\+Key\+Down}} (object sender, Key\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Gestor d\textquotesingle{}esdeveniments de teclat\+: permet controlar la calculadora i sortir del joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_accd06121801821a3d11500cc79293ff7}{Ejecutar\+Boton\+Por\+Contenido}} (string contenido)
+\item 
+System.\+Collections.\+Generic.\+I\+Enumerable$<$ T $>$ \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a6c67cf368bc6cddc47d21def635bb27b}{Find\+Visual\+Children$<$ T $>$}} (Dependency\+Object dep\+Obj)
+\item 
+void System.\+Windows.\+Markup.\+I\+Component\+Connector. \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_afce5a132393509f37c5ad1a7654e9a8c}{Connect}} (int connection\+Id, object target)
+\item 
+void System.\+Windows.\+Markup.\+I\+Component\+Connector. \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_afce5a132393509f37c5ad1a7654e9a8c}{Connect}} (int connection\+Id, object target)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_aaff86064b24f88922e2ad0c931fbb5eb}{\+\_\+expressio}} = \char`\"{}\char`\"{}
+\item 
+bool \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_a8edb84cff8d4d0c9e105264681e963f2}{\+\_\+is\+Doom\+Running}} = false
+\item 
+bool \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window_ab293ddad8561dff173549c5de0c639e3}{\+\_\+content\+Loaded}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe principal que implementa la lògica de la calculadora per a la P\+A\+C4. Incorpora validació d\textquotesingle{}errors i jerarquia d\textquotesingle{}operacions, a més d\textquotesingle{}un Easter Egg ocult. 
+
+\mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window}{Main\+Window}} 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a3332f70a514dc3489ebb21285d219f04}\label{class_p_a_c4___calculadora_1_1_main_window_a3332f70a514dc3489ebb21285d219f04}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Main\+Window@{Main\+Window}}
+\index{Main\+Window@{Main\+Window}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Main\+Window()}{MainWindow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Main\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor de la classe \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window}{Main\+Window}}. Inicialitza els components gràfics. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a3332f70a514dc3489ebb21285d219f04}\label{class_p_a_c4___calculadora_1_1_main_window_a3332f70a514dc3489ebb21285d219f04}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Main\+Window@{Main\+Window}}
+\index{Main\+Window@{Main\+Window}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Main\+Window()}{MainWindow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Main\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor de la classe \mbox{\hyperlink{class_p_a_c4___calculadora_1_1_main_window}{Main\+Window}}. Inicialitza els components gràfics. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a81c0d28ed62031f812ddf46780d2cda1}\label{class_p_a_c4___calculadora_1_1_main_window_a81c0d28ed62031f812ddf46780d2cda1}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Clear\+\_\+\+Click@{Btn\+Clear\+\_\+\+Click}}
+\index{Btn\+Clear\+\_\+\+Click@{Btn\+Clear\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Clear\+\_\+\+Click()}{BtnClear\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Clear\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Neteja completament la calculadora o surt del motor de joc. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a81c0d28ed62031f812ddf46780d2cda1}\label{class_p_a_c4___calculadora_1_1_main_window_a81c0d28ed62031f812ddf46780d2cda1}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Clear\+\_\+\+Click@{Btn\+Clear\+\_\+\+Click}}
+\index{Btn\+Clear\+\_\+\+Click@{Btn\+Clear\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Clear\+\_\+\+Click()}{BtnClear\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Clear\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Neteja completament la calculadora o surt del motor de joc. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_aa608d9b7d35fe6f657adb4f7af99ba22}\label{class_p_a_c4___calculadora_1_1_main_window_aa608d9b7d35fe6f657adb4f7af99ba22}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Equals\+\_\+\+Click@{Btn\+Equals\+\_\+\+Click}}
+\index{Btn\+Equals\+\_\+\+Click@{Btn\+Equals\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Equals\+\_\+\+Click()}{BtnEquals\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Equals\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Calcula el resultat de l\textquotesingle{}expressió acumulada respectant les prioritats operatives. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_aa608d9b7d35fe6f657adb4f7af99ba22}\label{class_p_a_c4___calculadora_1_1_main_window_aa608d9b7d35fe6f657adb4f7af99ba22}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Equals\+\_\+\+Click@{Btn\+Equals\+\_\+\+Click}}
+\index{Btn\+Equals\+\_\+\+Click@{Btn\+Equals\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Equals\+\_\+\+Click()}{BtnEquals\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Equals\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Calcula el resultat de l\textquotesingle{}expressió acumulada respectant les prioritats operatives. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_ab4d09576c518172d01427afd0e967127}\label{class_p_a_c4___calculadora_1_1_main_window_ab4d09576c518172d01427afd0e967127}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Number\+\_\+\+Click@{Btn\+Number\+\_\+\+Click}}
+\index{Btn\+Number\+\_\+\+Click@{Btn\+Number\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Number\+\_\+\+Click()}{BtnNumber\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Number\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode que s\textquotesingle{}executa en fer clic a un botó numèric (0-\/9) o al punt decimal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & El botó que ha disparat l\textquotesingle{}esdeveniment.\\
+\hline
+{\em e} & Arguments de l\textquotesingle{}esdeveniment.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_ab4d09576c518172d01427afd0e967127}\label{class_p_a_c4___calculadora_1_1_main_window_ab4d09576c518172d01427afd0e967127}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Number\+\_\+\+Click@{Btn\+Number\+\_\+\+Click}}
+\index{Btn\+Number\+\_\+\+Click@{Btn\+Number\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Number\+\_\+\+Click()}{BtnNumber\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Number\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode que s\textquotesingle{}executa en fer clic a un botó numèric (0-\/9) o al punt decimal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & El botó que ha disparat l\textquotesingle{}esdeveniment.\\
+\hline
+{\em e} & Arguments de l\textquotesingle{}esdeveniment.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a42ad8a5d111a5dc3e848a3a4be51bf36}\label{class_p_a_c4___calculadora_1_1_main_window_a42ad8a5d111a5dc3e848a3a4be51bf36}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Operator\+\_\+\+Click@{Btn\+Operator\+\_\+\+Click}}
+\index{Btn\+Operator\+\_\+\+Click@{Btn\+Operator\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Operator\+\_\+\+Click()}{BtnOperator\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Operator\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode que s\textquotesingle{}executa en fer clic a un operador matemàtic (+, -\/, ×, ÷). Gestiona la validació per evitar operadors consecutius. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a42ad8a5d111a5dc3e848a3a4be51bf36}\label{class_p_a_c4___calculadora_1_1_main_window_a42ad8a5d111a5dc3e848a3a4be51bf36}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Btn\+Operator\+\_\+\+Click@{Btn\+Operator\+\_\+\+Click}}
+\index{Btn\+Operator\+\_\+\+Click@{Btn\+Operator\+\_\+\+Click}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Btn\+Operator\+\_\+\+Click()}{BtnOperator\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Btn\+Operator\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode que s\textquotesingle{}executa en fer clic a un operador matemàtic (+, -\/, ×, ÷). Gestiona la validació per evitar operadors consecutius. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_afce5a132393509f37c5ad1a7654e9a8c}\label{class_p_a_c4___calculadora_1_1_main_window_afce5a132393509f37c5ad1a7654e9a8c}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Connect@{Connect}}
+\index{Connect@{Connect}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Connect()}{Connect()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void System.\+Windows.\+Markup.\+I\+Component\+Connector. P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Connect (\begin{DoxyParamCaption}\item[{int}]{connection\+Id,  }\item[{object}]{target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_afce5a132393509f37c5ad1a7654e9a8c}\label{class_p_a_c4___calculadora_1_1_main_window_afce5a132393509f37c5ad1a7654e9a8c}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Connect@{Connect}}
+\index{Connect@{Connect}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Connect()}{Connect()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void System.\+Windows.\+Markup.\+I\+Component\+Connector. P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Connect (\begin{DoxyParamCaption}\item[{int}]{connection\+Id,  }\item[{object}]{target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_accd06121801821a3d11500cc79293ff7}\label{class_p_a_c4___calculadora_1_1_main_window_accd06121801821a3d11500cc79293ff7}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Ejecutar\+Boton\+Por\+Contenido@{Ejecutar\+Boton\+Por\+Contenido}}
+\index{Ejecutar\+Boton\+Por\+Contenido@{Ejecutar\+Boton\+Por\+Contenido}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Ejecutar\+Boton\+Por\+Contenido()}{EjecutarBotonPorContenido()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Ejecutar\+Boton\+Por\+Contenido (\begin{DoxyParamCaption}\item[{string}]{contenido }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_accd06121801821a3d11500cc79293ff7}\label{class_p_a_c4___calculadora_1_1_main_window_accd06121801821a3d11500cc79293ff7}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Ejecutar\+Boton\+Por\+Contenido@{Ejecutar\+Boton\+Por\+Contenido}}
+\index{Ejecutar\+Boton\+Por\+Contenido@{Ejecutar\+Boton\+Por\+Contenido}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Ejecutar\+Boton\+Por\+Contenido()}{EjecutarBotonPorContenido()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Ejecutar\+Boton\+Por\+Contenido (\begin{DoxyParamCaption}\item[{string}]{contenido }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a1b0f5b87aa37a064fb973e1cd3910816}\label{class_p_a_c4___calculadora_1_1_main_window_a1b0f5b87aa37a064fb973e1cd3910816}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Exit\+Doom@{Exit\+Doom}}
+\index{Exit\+Doom@{Exit\+Doom}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Exit\+Doom()}{ExitDoom()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Exit\+Doom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Tanca l\textquotesingle{}Easter Egg i restaura la finestra original de la calculadora. El Doom es pot tancar prement Ctrl+Q o fent clic al botó Clear mentre el Doom està actiu. ~\newline
+El Doom\+Screen es manté carregat per si l\textquotesingle{}usuari vol tornar a activar-\/lo, evitant errors de recàrrega. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a1b0f5b87aa37a064fb973e1cd3910816}\label{class_p_a_c4___calculadora_1_1_main_window_a1b0f5b87aa37a064fb973e1cd3910816}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Exit\+Doom@{Exit\+Doom}}
+\index{Exit\+Doom@{Exit\+Doom}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Exit\+Doom()}{ExitDoom()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Exit\+Doom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Tanca l\textquotesingle{}Easter Egg i restaura la finestra original de la calculadora. El Doom es pot tancar prement Ctrl+Q o fent clic al botó Clear mentre el Doom està actiu. ~\newline
+El Doom\+Screen es manté carregat per si l\textquotesingle{}usuari vol tornar a activar-\/lo, evitant errors de recàrrega. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a6c67cf368bc6cddc47d21def635bb27b}\label{class_p_a_c4___calculadora_1_1_main_window_a6c67cf368bc6cddc47d21def635bb27b}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Find\+Visual\+Children$<$ T $>$@{Find\+Visual\+Children$<$ T $>$}}
+\index{Find\+Visual\+Children$<$ T $>$@{Find\+Visual\+Children$<$ T $>$}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Find\+Visual\+Children$<$ T $>$()}{FindVisualChildren< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily System.\+Collections.\+Generic.\+I\+Enumerable$<$T$>$ P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Find\+Visual\+Children$<$ T $>$ (\begin{DoxyParamCaption}\item[{Dependency\+Object}]{dep\+Obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Dependency\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a6c67cf368bc6cddc47d21def635bb27b}\label{class_p_a_c4___calculadora_1_1_main_window_a6c67cf368bc6cddc47d21def635bb27b}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Find\+Visual\+Children$<$ T $>$@{Find\+Visual\+Children$<$ T $>$}}
+\index{Find\+Visual\+Children$<$ T $>$@{Find\+Visual\+Children$<$ T $>$}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Find\+Visual\+Children$<$ T $>$()}{FindVisualChildren< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily System.\+Collections.\+Generic.\+I\+Enumerable$<$T$>$ P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Find\+Visual\+Children$<$ T $>$ (\begin{DoxyParamCaption}\item[{Dependency\+Object}]{dep\+Obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Dependency\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a9a7e7d247e527920519e1451ff703233}\label{class_p_a_c4___calculadora_1_1_main_window_a9a7e7d247e527920519e1451ff703233}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialize\+Component 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a9a7e7d247e527920519e1451ff703233}\label{class_p_a_c4___calculadora_1_1_main_window_a9a7e7d247e527920519e1451ff703233}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialize\+Component 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a3209540a4b7763138f82d9311887f17e}\label{class_p_a_c4___calculadora_1_1_main_window_a3209540a4b7763138f82d9311887f17e}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Main\+Window\+\_\+\+Preview\+Key\+Down@{Main\+Window\+\_\+\+Preview\+Key\+Down}}
+\index{Main\+Window\+\_\+\+Preview\+Key\+Down@{Main\+Window\+\_\+\+Preview\+Key\+Down}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Main\+Window\+\_\+\+Preview\+Key\+Down()}{MainWindow\_PreviewKeyDown()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Main\+Window\+\_\+\+Preview\+Key\+Down (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Key\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Gestor d\textquotesingle{}esdeveniments de teclat\+: permet controlar la calculadora i sortir del joc. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a3209540a4b7763138f82d9311887f17e}\label{class_p_a_c4___calculadora_1_1_main_window_a3209540a4b7763138f82d9311887f17e}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Main\+Window\+\_\+\+Preview\+Key\+Down@{Main\+Window\+\_\+\+Preview\+Key\+Down}}
+\index{Main\+Window\+\_\+\+Preview\+Key\+Down@{Main\+Window\+\_\+\+Preview\+Key\+Down}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Main\+Window\+\_\+\+Preview\+Key\+Down()}{MainWindow\_PreviewKeyDown()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Main\+Window\+\_\+\+Preview\+Key\+Down (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Key\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Gestor d\textquotesingle{}esdeveniments de teclat\+: permet controlar la calculadora i sortir del joc. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a0c53c4846653c6a7f127f4582d0cf449}\label{class_p_a_c4___calculadora_1_1_main_window_a0c53c4846653c6a7f127f4582d0cf449}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Mostrar\+Error@{Mostrar\+Error}}
+\index{Mostrar\+Error@{Mostrar\+Error}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Mostrar\+Error()}{MostrarError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Mostrar\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode auxiliar per establir l\textquotesingle{}estat d\textquotesingle{}error a la interfície. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a0c53c4846653c6a7f127f4582d0cf449}\label{class_p_a_c4___calculadora_1_1_main_window_a0c53c4846653c6a7f127f4582d0cf449}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Mostrar\+Error@{Mostrar\+Error}}
+\index{Mostrar\+Error@{Mostrar\+Error}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Mostrar\+Error()}{MostrarError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Mostrar\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode auxiliar per establir l\textquotesingle{}estat d\textquotesingle{}error a la interfície. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a023883a85a8b64c14e91725146630d27}\label{class_p_a_c4___calculadora_1_1_main_window_a023883a85a8b64c14e91725146630d27}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Run\+Doom\+Full\+Screen@{Run\+Doom\+Full\+Screen}}
+\index{Run\+Doom\+Full\+Screen@{Run\+Doom\+Full\+Screen}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Run\+Doom\+Full\+Screen()}{RunDoomFullScreen()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Run\+Doom\+Full\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode privat que activa l\textquotesingle{}entorn de pantalla completa per executar l\textquotesingle{}Easter Egg. 
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a023883a85a8b64c14e91725146630d27}\label{class_p_a_c4___calculadora_1_1_main_window_a023883a85a8b64c14e91725146630d27}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!Run\+Doom\+Full\+Screen@{Run\+Doom\+Full\+Screen}}
+\index{Run\+Doom\+Full\+Screen@{Run\+Doom\+Full\+Screen}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{Run\+Doom\+Full\+Screen()}{RunDoomFullScreen()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async void P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+Run\+Doom\+Full\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Mètode privat que activa l\textquotesingle{}entorn de pantalla completa per executar l\textquotesingle{}Easter Egg. 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_ab293ddad8561dff173549c5de0c639e3}\label{class_p_a_c4___calculadora_1_1_main_window_ab293ddad8561dff173549c5de0c639e3}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!\+\_\+content\+Loaded@{\+\_\+content\+Loaded}}
+\index{\+\_\+content\+Loaded@{\+\_\+content\+Loaded}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{\+\_\+content\+Loaded}{\_contentLoaded}}
+{\footnotesize\ttfamily bool P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+\_\+content\+Loaded\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_aaff86064b24f88922e2ad0c931fbb5eb}\label{class_p_a_c4___calculadora_1_1_main_window_aaff86064b24f88922e2ad0c931fbb5eb}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!\+\_\+expressio@{\+\_\+expressio}}
+\index{\+\_\+expressio@{\+\_\+expressio}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{\+\_\+expressio}{\_expressio}}
+{\footnotesize\ttfamily string P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+\_\+expressio = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_p_a_c4___calculadora_1_1_main_window_a8edb84cff8d4d0c9e105264681e963f2}\label{class_p_a_c4___calculadora_1_1_main_window_a8edb84cff8d4d0c9e105264681e963f2}} 
+\index{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}!\+\_\+is\+Doom\+Running@{\+\_\+is\+Doom\+Running}}
+\index{\+\_\+is\+Doom\+Running@{\+\_\+is\+Doom\+Running}!P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window@{P\+A\+C4\+\_\+\+Calculadora\+::\+Main\+Window}}
+\subsubsection{\texorpdfstring{\+\_\+is\+Doom\+Running}{\_isDoomRunning}}
+{\footnotesize\ttfamily bool P\+A\+C4\+\_\+\+Calculadora.\+Main\+Window.\+\_\+is\+Doom\+Running = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+P\+A\+C4-\/\+Calculadora/bin/\+Debug/net10.\+0-\/windows/\mbox{\hyperlink{bin_2_debug_2net10_80-windows_2_main_window_8xaml_8cs}{Main\+Window.\+xaml.\+cs}}\item 
+P\+A\+C4-\/\+Calculadora/obj/\+Debug/net10.\+0-\/windows/\mbox{\hyperlink{_main_window_8g_8cs}{Main\+Window.\+g.\+cs}}\item 
+P\+A\+C4-\/\+Calculadora/obj/\+Debug/net10.\+0-\/windows/\mbox{\hyperlink{_main_window_8g_8i_8cs}{Main\+Window.\+g.\+i.\+cs}}\end{DoxyCompactItemize}

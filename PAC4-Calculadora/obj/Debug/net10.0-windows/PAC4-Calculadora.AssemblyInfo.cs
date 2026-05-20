@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PAC4-Calculadora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06083b596467b8e9e52b850b6e616cdb6dcd2aba")]
 [assembly: System.Reflection.AssemblyProductAttribute("PAC4-Calculadora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PAC4-Calculadora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

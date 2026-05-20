@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     "net10.0-windows7.0": {
+      "Doxygen/1.8.14": {
+        "type": "package"
+      },
       "Microsoft.Web.WebView2/1.0.3967.48": {
         "type": "package",
         "build": {
@@ -25,6 +28,20 @@
     }
   },
   "libraries": {
+    "Doxygen/1.8.14": {
+      "sha512": "2a9Cx5QwwZC3D5tFvRQdSNdjVSIA7INtnHbxq9ogkrbkTBI5XZiS0oI5cln6aNL3M1YuVbGZL2YHIMThbVJRwQ==",
+      "type": "package",
+      "path": "doxygen/1.8.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doxygen.1.8.14.nupkg.sha512",
+        "doxygen.nuspec",
+        "tools/doxygen.exe",
+        "tools/libclang.dll"
+      ]
+    },
     "Microsoft.Web.WebView2/1.0.3967.48": {
       "sha512": "b7dZ5kZ9bfU5Yo11M8feCOoiyalXCN+2Gsw674RBDBmQ2dJV5EOXb8/ivN2LuLJ+VO2V7FmK6l6LsyfEnG1lXw==",
       "type": "package",
@@ -125,6 +142,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0-windows7.0": [
+      "Doxygen >= 1.8.14",
       "Microsoft.Web.WebView2 >= 1.0.3967.48"
     ]
   },
@@ -134,11 +152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
       "projectName": "PAC4-Calculadora",
-      "projectPath": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+      "projectPath": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
       "packagesPath": "C:\\Users\\10066920\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\obj\\",
+      "outputPath": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\10066920\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -173,6 +191,12 @@
       "net10.0-windows7.0": {
         "targetAlias": "net10.0-windows",
         "dependencies": {
+          "Doxygen": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.8.14, )"
+          },
           "Microsoft.Web.WebView2": {
             "target": "Package",
             "version": "[1.0.3967.48, )"

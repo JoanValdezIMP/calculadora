@@ -13,10 +13,15 @@
             </Grid.RowDefinitions>
 
             <Border Background="#9EA78D" Margin="10" CornerRadius="5" Padding="5" Grid.Row="0">
-                <TextBlock x:Name="CalcDisplay" Text="0" 
-                           FontSize="48" FontFamily="Consolas" 
-                           Foreground="#222222" HorizontalAlignment="Right" 
-                           VerticalAlignment="Bottom"/>
+                <StackPanel VerticalAlignment="Bottom">
+                    <TextBlock x:Name="CalcEquation" Text="" 
+                               FontSize="16" FontFamily="Consolas" 
+                               Foreground="#555555" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+
+                    <TextBlock x:Name="CalcDisplay" Text="0" 
+                               FontSize="48" FontFamily="Consolas" 
+                               Foreground="#222222" HorizontalAlignment="Right"/>
+                </StackPanel>
             </Border>
 
             <UniformGrid Grid.Row="1" Columns="4" Margin="10,0,10,10">

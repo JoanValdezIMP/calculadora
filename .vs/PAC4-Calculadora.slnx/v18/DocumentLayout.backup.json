@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\",
+  "WorkspaceRootPath": "C:\\Users\\10066920\\Desktop\\calculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\10066920\\source\\repos\\pac4-calculadora\\pac4-calculadora\\doomfiles\\doom1.wad||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|solutionrelative:pac4-calculadora\\doomfiles\\doom1.wad||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\10066920\\source\\repos\\pac4-calculadora\\pac4-calculadora\\doomfiles\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|solutionrelative:pac4-calculadora\\doomfiles\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\10066920\\source\\repos\\pac4-calculadora\\pac4-calculadora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|solutionrelative:pac4-calculadora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\10066920\\desktop\\calculadora\\pac4-calculadora\\pac4-calculadora.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|solutionrelative:pac4-calculadora\\pac4-calculadora.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "doom1.wad",
-              "DocumentMoniker": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\DoomFiles\\doom1.wad",
-              "RelativeDocumentMoniker": "PAC4-Calculadora\\DoomFiles\\doom1.wad",
-              "ToolTip": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\DoomFiles\\doom1.wad",
-              "RelativeToolTip": "PAC4-Calculadora\\DoomFiles\\doom1.wad",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-15T18:05:47.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\DoomFiles\\index.html",
-              "RelativeDocumentMoniker": "PAC4-Calculadora\\DoomFiles\\index.html",
-              "ToolTip": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\DoomFiles\\index.html",
-              "RelativeToolTip": "PAC4-Calculadora\\DoomFiles\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-15T18:00:52.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "PAC4-Calculadora\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\MainWindow.xaml",
-              "RelativeToolTip": "PAC4-Calculadora\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-15T17:51:13.01Z",
+              "Title": "PAC4-Calculadora",
+              "DocumentMoniker": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+              "RelativeDocumentMoniker": "PAC4-Calculadora\\PAC4-Calculadora.csproj",
+              "ToolTip": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+              "RelativeToolTip": "PAC4-Calculadora\\PAC4-Calculadora.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T17:22:33.826Z",
               "EditorCaption": ""
             }
           ]

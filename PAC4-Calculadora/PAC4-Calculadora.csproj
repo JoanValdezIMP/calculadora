@@ -20,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Doxygen" Version="1.8.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3967.48" />
   </ItemGroup>
 
@@ -43,5 +47,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
+
+  <PropertyGroup>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<DocumentationFile>bin\Debug\net10.0-windows\PAC4-CalculadoraDoc.xml</DocumentationFile>
+  </PropertyGroup>
+
 
 </Project>

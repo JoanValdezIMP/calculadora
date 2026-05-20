@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PAC4-Calculadora</name>
+    </assembly>
+    <members>
+        <member name="T:PAC4_Calculadora.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:PAC4_Calculadora.MainWindow">
+            <summary>
+            Classe principal que implementa la lògica de la calculadora per a la PAC4.
+            Incorpora validació d'errors i jerarquia d'operacions, a més d'un Easter Egg ocult.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.#ctor">
+            <summary>
+            Constructor de la classe MainWindow. Inicialitza els components gràfics.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.BtnNumber_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Mètode que s'executa en fer clic a un botó numèric (0-9) o al punt decimal.
+            </summary>
+            <param name="sender">El botó que ha disparat l'esdeveniment.</param>
+            <param name="e">Arguments de l'esdeveniment.</param>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.BtnOperator_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Mètode que s'executa en fer clic a un operador matemàtic (+, -, ×, ÷).
+            Gestiona la validació per evitar operadors consecutius.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.BtnEquals_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Calcula el resultat de l'expressió acumulada respectant les prioritats operatives.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.BtnClear_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Neteja completament la calculadora o surt del motor de joc.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.MostrarError">
+            <summary>
+            Mètode auxiliar per establir l'estat d'error a la interfície.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.RunDoomFullScreen">
+            <summary>
+            Mètode privat que activa l'entorn de pantalla completa per executar l'Easter Egg.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.ExitDoom">
+            <summary>
+            Tanca l'Easter Egg i restaura la finestra original de la calculadora.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.MainWindow_PreviewKeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Gestor d'esdeveniments de teclat: permet controlar la calculadora i sortir del joc.
+            </summary>
+        </member>
+        <member name="M:PAC4_Calculadora.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

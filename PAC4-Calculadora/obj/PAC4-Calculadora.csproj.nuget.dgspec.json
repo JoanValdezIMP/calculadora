@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj": {}
+    "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj": {
+    "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
         "projectName": "PAC4-Calculadora",
-        "projectPath": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+        "projectPath": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
         "packagesPath": "C:\\Users\\10066920\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\10066920\\source\\repos\\PAC4-Calculadora\\PAC4-Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10066920\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,12 @@
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "dependencies": {
+            "Doxygen": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
             "Microsoft.Web.WebView2": {
               "target": "Package",
               "version": "[1.0.3967.48, )"
