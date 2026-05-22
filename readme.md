@@ -25,7 +25,7 @@
 
 ---
 
-## 📑 Índex
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/list.svg" width="24" height="24" align="absmiddle" /> Índex
 
 <details>
   <summary>Mostra / amaga l'índex</summary>
@@ -45,7 +45,7 @@
 
 ---
 
-## 📝 Sobre el projecte
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/file-text.svg" width="24" height="24" align="absmiddle" /> Sobre el projecte
 
 Aquest projecte consisteix en el desenvolupament d’una calculadora multiplataforma bàsica utilitzant l’entorn WPF (Windows Presentation Foundation) sobre .NET 10.
 
@@ -55,7 +55,7 @@ L’aplicació va més enllà d’un simple disseny visual, integrant un motor d
 
 ---
 
-## 💻 Requisits del Sistema
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/monitor.svg" width="24" height="24" align="absmiddle" /> Requisits del Sistema
 
 Per garantir el correcte funcionament de la interfície i del mòdul WebAssembly ocult, es requereix:
 
@@ -68,7 +68,7 @@ Per garantir el correcte funcionament de la interfície i del mòdul WebAssembly
 
 ---
 
-## ⚙️ Funcionalitats Principals
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/settings.svg" width="24" height="24" align="absmiddle" /> Funcionalitats Principals
 
 * **Operacions Encadenades:** Permet introduir cadenes de càlcul complexes d’una sola vegada (Ex: 5+3*2-4/2).
 * **Prioritat Matemàtica Nativa:** El motor processa les expressions respectant de manera estricta que multiplicacions i divisions s’executin abans que les sumes i restes.
@@ -80,7 +80,7 @@ Per garantir el correcte funcionament de la interfície i del mòdul WebAssembly
 
 ---
 
-## 🚀 Instal·lació i execució
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/rocket.svg" width="24" height="24" align="absmiddle" /> Instal·lació i execució
 
 Segueix aquests passos seqüencials per compilar i executar el projecte al teu entorn local:
 
@@ -96,11 +96,11 @@ Segueix aquests passos seqüencials per compilar i executar el projecte al teu e
 
 ---
 
-## 📖 Guia d’Ús i Navegació
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/book-open.svg" width="24" height="24" align="absmiddle" /> Guia d’Ús i Navegació
 
 Aquest apartat descriu tant la distribució dels components a la interfície gràfica com els fluxos de control d’entrada de dades.
 
-### 🔷 Distribució ESTRUCTURAL de la Interfície (Layout)
+### <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/chevron-right.svg" width="18" height="18" align="absmiddle" /> Distribució ESTRUCTURAL de la Interfície (Layout)
 La interfície es compon d’una finestra única estructurada verticalment en dues regions principals mitjançant un contenidor natiu `Grid`:
 
 1. **Regió de Visualització (Capa Superior):** Dissenyada emulant un panell LCD clàssic mitjançant un contenidor `Border` amb fons verd oliva (#9EA78D). Conté dues línies:
@@ -109,7 +109,7 @@ La interfície es compon d’una finestra única estructurada verticalment en du
 
 2. **Regió Operativa (Capa Inferior):** Organitzada mitjançant un control `UniformGrid` de 4 columnes que distribueix de manera simètrica la botonera tàctil.
 
-### 🔷 Sistema Avançat de Control per Teclat Físic
+### <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/chevron-right.svg" width="18" height="18" align="absmiddle" /> Sistema Avançat de Control per Teclat Físic
 L’aplicació implementa accessibilitat total safe-focus interceptant l’esdeveniment descendent `PreviewKeyDown`:
 
 | Entrada de Teclat Físic | Codi Virtual Interceptat (Key) | Destí Operatiu Associat |
@@ -127,25 +127,25 @@ L’aplicació implementa accessibilitat total safe-focus interceptant l’esdev
 
 ---
 
-## 📸 Exemples Pràctics i Captures
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/image.svg" width="24" height="24" align="absmiddle" /> Exemples Pràctics i Captures
 
 S’exposen els tres escenaris principals d’execució del sistema.
 
-### 1️⃣ Escenari A: Càlcul Polinòmic amb Prioritat d’Operadors
+### **1.** Escenari A: Càlcul Polinòmic amb Prioritat d’Operadors
 * **Cadena d’Entrada:** `1 + 3 × 5 - 2 / 4 =`
 * **Processament Intern:** La classe `DataTable` processa l’expressió linealitzada en memòria. Primer calcula productes i quocients, transformant l’expressió a `1+15-0.5`.
 * **Resultat Visualitzat:** `15.5`
 
 ![Calculadora](./img/img1.png)
 
-### 2️⃣ Escenari B: Intercepció d’Excepcions Aritmètiques
+### **2.** Escenari B: Intercepció d’Excepcions Aritmètiques
 * **Cadena d’Entrada:** `8 ÷ 0 =`
 * **Processament Intern:** El fil intercepta l’error al bloc `try-catch` (divisió per zero o NaN) i desvia el flux cap al mètode `MostrarError()`.
 * **Resultat Visualitzat:** `Error`
 
 ![Error 0](./img/0.png) ![Resultat Error](./img/0_result.png)
 
-### 3️⃣ Escenari C: Entorn Aïllat (Easter Egg - DOOM)
+### **3.** Escenari C: Entorn Aïllat (Easter Egg - DOOM)
 * **Cadena d’Entrada:** `6 6 6`
 * **Processament Intern:** En confirmar el patró "666", s'invoca `RunDoomFullScreen()`, es maximitza la finestra, es col·lapsa la quadrícula gràfica i s'inicialitza el motor WebAssembly sobre WebView2.
 
@@ -155,9 +155,9 @@ S’exposen els tres escenaris principals d’execució del sistema.
 
 ---
 
-## ❓ Resolució de Problemes (FAQ)
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/help-circle.svg" width="24" height="24" align="absmiddle" /> Resolució de Problemes (FAQ)
 
-### 🛑 Problema 1: L'error CS0246 ('wv2' no s’ha trobat)
+### <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/alert-triangle.svg" width="20" height="20" align="absmiddle" /> Problema 1: L'error CS0246 ('wv2' no s’ha trobat)
 * **Causa:** Falta la restauració dels components de l’SDK d’emulació a NuGet.
 * **Solució:** Obre la Consola de l’Administrador de Paquets de Visual Studio i executa aquesta comanda de powershell:
 
@@ -167,7 +167,7 @@ S’exposen els tres escenaris principals d’execució del sistema.
 
 ---
 
-## 🎨 Estil i Disseny del README
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/palette.svg" width="24" height="24" align="absmiddle" /> Estil i Disseny del README
 
 Aquest document utilitza una estructura visual avançada per millorar la navegació i presentació de la informació en plataformes com GitHub:
 
@@ -180,7 +180,7 @@ Aquest document utilitza una estructura visual avançada per millorar la navegac
 
 ---
 
-## !! Conclusions
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/check-square.svg" width="24" height="24" align="absmiddle" /> Conclusions
 
 El desenvolupament d’aquest programa ha servit per consolidar els conceptes d'arquitectura de programari:
 
@@ -192,7 +192,7 @@ El desenvolupament d’aquest programa ha servit per consolidar els conceptes d'
 
 ---
 
-## ⚖️ Autoria i Llicència
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/scale.svg" width="24" height="24" align="absmiddle" /> Autoria i Llicència
 
 Projecte desenvolupat per:
 * **Joan Valdez**
