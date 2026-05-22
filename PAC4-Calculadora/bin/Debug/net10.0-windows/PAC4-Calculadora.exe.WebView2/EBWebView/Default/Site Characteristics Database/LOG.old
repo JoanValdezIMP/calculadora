@@ -1,3 +1,6 @@
-2026/05/20-18:50:48.423 5948 Reusing MANIFEST C:\Users\10066920\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
-2026/05/20-18:50:48.428 5948 Recovering log #6
-2026/05/20-18:50:48.428 5948 Reusing old log C:\Users\10066920\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Site Characteristics Database/000006.log 
+2026/05/22-16:38:13.536 2384 Log #6: 5 ops saved to Table #7 OK
+2026/05/22-16:38:13.541 2384 Archiving C:\Users\valde\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Site Characteristics Database/000006.log: OK
+2026/05/22-16:38:13.541 2384 Table #4: 14 entries OK
+2026/05/22-16:38:13.542 2384 Table #7: 5 entries OK
+2026/05/22-16:38:13.547 2384 Archiving C:\Users\valde\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001: OK
+2026/05/22-16:38:13.555 2384 **** Repaired leveldb C:\Users\valde\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Site Characteristics Database; recovered 2 files; 769 bytes. Some data may have been lost. ****

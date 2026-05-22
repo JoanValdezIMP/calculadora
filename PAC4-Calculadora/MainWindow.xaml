@@ -25,25 +25,25 @@
             </Border>
 
             <UniformGrid Grid.Row="1" Columns="4" Margin="10,0,10,10">
-                <Button Content="7" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="8" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="9" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="/" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+                <Button Content="7" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="8" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="9" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="/" Click="Operation_Click" Margin="2" FontSize="20"/>
 
-                <Button Content="4" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="5" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="6" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="*" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+                <Button Content="4" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="5" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="6" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="*" Click="Operation_Click" Margin="2" FontSize="20"/>
 
-                <Button Content="1" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="2" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="3" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="-" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+                <Button Content="1" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="2" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="3" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="-" Click="Operation_Click" Margin="2" FontSize="20"/>
 
-                <Button Content="C" Click="BtnClear_Click" Margin="2" FontSize="20" Background="#FFAAAAAA"/>
-                <Button Content="0" Click="BtnNumber_Click" Margin="2" FontSize="20"/>
-                <Button Content="=" Click="BtnEquals_Click" Margin="2" FontSize="20" Background="#FF7DA1FF"/>
-                <Button Content="+" Click="BtnOperator_Click" Margin="2" FontSize="20"/>
+                <Button Content="C" Click="Clear_Click" Margin="2" FontSize="20" Background="#FFAAAAAA"/>
+                <Button Content="0" Click="Value_Click" Margin="2" FontSize="20"/>
+                <Button Content="=" Click="Result_Click" Margin="2" FontSize="20" Background="#FF7DA1FF"/>
+                <Button Content="+" Click="Operation_Click" Margin="2" FontSize="20"/>
             </UniformGrid>
         </Grid>
 

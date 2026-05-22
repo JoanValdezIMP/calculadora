@@ -22,7 +22,7 @@ namespace PAC4_Calculadora
         public MainWindow()
         {
             InitializeComponent();
-            this.PreviewKeyDown += MainWindow_PreviewKeyDown; // Añade esta línea si no la tienes
+            this.PreviewKeyDown += MainWindow_PreviewKeyDown;
         }
 
         /// <summary>
@@ -30,7 +30,7 @@ namespace PAC4_Calculadora
         /// </summary>
         /// <param name="sender">El botó que ha disparat l'esdeveniment.</param>
         /// <param name="e">Arguments de l'esdeveniment.</param>
-        private void BtnNumber_Click(object sender, RoutedEventArgs e)
+        private void Value_Click(object sender, RoutedEventArgs e)
         {
             if (_isDoomRunning) return;
 
@@ -60,7 +60,7 @@ namespace PAC4_Calculadora
         /// Mètode que s'executa en fer clic a un operador matemàtic (+, -, ×, ÷).
         /// Gestiona la validació per evitar operadors consecutius.
         /// </summary>
-        private void BtnOperator_Click(object sender, RoutedEventArgs e)
+        private void Operation_Click(object sender, RoutedEventArgs e)
         {
             if (_isDoomRunning) return;
             Button button = (Button)sender;
@@ -93,7 +93,7 @@ namespace PAC4_Calculadora
         /// <summary>
         /// Calcula el resultat de l'expressió acumulada respectant les prioritats operatives.
         /// </summary>
-        private void BtnEquals_Click(object sender, RoutedEventArgs e)
+        private void Result_Click(object sender, RoutedEventArgs e)
         {
             if (_isDoomRunning) return;
 
@@ -143,7 +143,7 @@ namespace PAC4_Calculadora
         /// <summary>
         /// Neteja completament la calculadora o surt del motor de joc.
         /// </summary>
-        private void BtnClear_Click(object sender, RoutedEventArgs e)
+        private void Clear_Click(object sender, RoutedEventArgs e)
         {
             if (_isDoomRunning)
             {
@@ -220,7 +220,6 @@ namespace PAC4_Calculadora
             this.WindowStyle = WindowStyle.SingleBorderWindow;
             this.WindowState = WindowState.Normal;
             DoomContainer.Visibility = Visibility.Collapsed;
-            //DoomScreen.Source = null; // Aixo dona error si es fa servir, millor deixar la URL carregada per si es torna a activar
             CalculatorUI.Visibility = Visibility.Visible;
             CalcDisplay.Text = "0";
             _expressio = "";
@@ -243,7 +242,7 @@ namespace PAC4_Calculadora
             }
 
             // 2. Control de la calculadora per teclat
-            // Mapeo de tecles numèriques (teclat principal i numèric)
+            // Mapeig de tecles numèriques (teclat principal i numèric)
             if (e.Key >= Key.D0 && e.Key <= Key.D9)
                 EjecutarBotonPorContenido((e.Key - Key.D0).ToString());
             else if (e.Key >= Key.NumPad0 && e.Key <= Key.NumPad9)
@@ -254,8 +253,8 @@ namespace PAC4_Calculadora
             else if (e.Key == Key.Subtract || e.Key == Key.OemMinus) EjecutarBotonPorContenido("-");
             else if (e.Key == Key.Multiply) EjecutarBotonPorContenido("×");
             else if (e.Key == Key.Divide || e.Key == Key.Oem2) EjecutarBotonPorContenido("÷");
-            else if (e.Key == Key.Enter) BtnEquals_Click(null, null);
-            else if (e.Key == Key.Escape || e.Key == Key.C) BtnClear_Click(null, null);
+            else if (e.Key == Key.Enter) Result_Click(null, null);
+            else if (e.Key == Key.Escape || e.Key == Key.C) Clear_Click(null, null);
         }
 
         // Mètode auxiliar per buscar el botó i fer clic

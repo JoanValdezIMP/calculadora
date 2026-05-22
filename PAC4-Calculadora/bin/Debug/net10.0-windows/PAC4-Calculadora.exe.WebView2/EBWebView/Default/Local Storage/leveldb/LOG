@@ -1,3 +1,2 @@
-2026/05/20-19:14:40.269 4df8 Reusing MANIFEST C:\Users\10066920\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2026/05/20-19:14:40.283 4df8 Recovering log #3
-2026/05/20-19:14:40.289 4df8 Reusing old log C:\Users\10066920\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000003.log 
+2026/05/22-16:38:13.616 3ab8 Creating DB C:\Users\valde\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Local Storage\leveldb since it was missing.
+2026/05/22-16:38:13.640 3ab8 Reusing MANIFEST C:\Users\valde\Desktop\calculadora\PAC4-Calculadora\bin\Debug\net10.0-windows\PAC4-Calculadora.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001

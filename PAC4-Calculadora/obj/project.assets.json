@@ -147,19 +147,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\10066920\\.nuget\\packages\\": {}
+    "C:\\Users\\valde\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
       "projectName": "PAC4-Calculadora",
-      "projectPath": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
-      "packagesPath": "C:\\Users\\10066920\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\obj\\",
+      "projectPath": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+      "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\10066920\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -185,7 +185,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0-windows7.0": {
@@ -221,7 +221,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

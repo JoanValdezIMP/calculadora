@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\10066920\\Desktop\\calculadora\\",
+  "WorkspaceRootPath": "C:\\Users\\valde\\Desktop\\calculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\10066920\\desktop\\calculadora\\pac4-calculadora\\pac4-calculadora.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PAC4-Calculadora\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\valde\\desktop\\calculadora\\pac4-calculadora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|solutionrelative:pac4-calculadora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\valde\\desktop\\calculadora\\pac4-calculadora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|solutionrelative:pac4-calculadora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|c:\\users\\valde\\desktop\\calculadora\\pac4-calculadora\\pac4-calculadora.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E8FA95E4-2CBA-1179-0D97-A87F8706EC57}|PAC4-Calculadora\\PAC4-Calculadora.csproj|solutionrelative:pac4-calculadora\\pac4-calculadora.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -19,14 +31,47 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "readme.md",
+              "DocumentMoniker": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\readme.md",
+              "RelativeDocumentMoniker": "PAC4-Calculadora\\readme.md",
+              "ToolTip": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\readme.md",
+              "RelativeToolTip": "PAC4-Calculadora\\readme.md",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-22T14:20:11.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PAC4-Calculadora\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PAC4-Calculadora\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAwB4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T14:14:23.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PAC4-Calculadora\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\MainWindow.xaml",
+              "RelativeToolTip": "PAC4-Calculadora\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T14:12:14.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PAC4-Calculadora",
-              "DocumentMoniker": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+              "DocumentMoniker": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
               "RelativeDocumentMoniker": "PAC4-Calculadora\\PAC4-Calculadora.csproj",
-              "ToolTip": "C:\\Users\\10066920\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
+              "ToolTip": "C:\\Users\\valde\\Desktop\\calculadora\\PAC4-Calculadora\\PAC4-Calculadora.csproj",
               "RelativeToolTip": "PAC4-Calculadora\\PAC4-Calculadora.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-20T17:22:33.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T17:22:33.826Z"
             }
           ]
         }
